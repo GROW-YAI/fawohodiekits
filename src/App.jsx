@@ -12,10 +12,12 @@ import Error from "./components/Error";
 import ProductCatalog from "./pages/home/sections/ProductCatalog";
 import AboutInstallation from "./components/AboutInstallation";
 import MeetingRequest from "./components/MeetingRequest ";
+import BoafoWidgetInitializer from "./components/BoafoWidgetInitializer";
 
 const App = () => {
   return (
     <Router>
+      <BoafoWidgetInitializer />
       <ScrollToTop />
       <ScrollToTopButton />
       <Navbar />
